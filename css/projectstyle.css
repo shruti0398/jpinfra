@@ -1,0 +1,258 @@
+
+
+/*--------------------------------------------------------------
+Project page
+--------------------------------------------------------------*/
+h1 {
+    text-align: center;
+    font-size: 34px;
+    font-weight: 800;
+    color: #2E5689;
+    padding: 0px 0px 0px 0px;
+    margin: 15px 0px;
+}
+.slider-section {
+    width: 100%;
+    margin: 0 auto;
+}
+.divide-section{
+    width: 100%;
+}
+.divide-img{
+    width: 50%;
+    float: left;
+}
+.divide-img img {
+    width: 100%;
+}
+.divide-text {
+    width: 50%;
+    float: left;
+    background-color: #0000001a;
+    padding: 78px 0px;
+}
+.project_north {
+    width: 82%;
+    margin: 0 auto;
+}
+.project_north h3 {
+    text-transform: capitalize;
+    color: #094270;
+    font-weight: 600;
+}
+.banner_project{
+    width: 100%;
+}
+.slider-css {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    z-index: 15;
+    width: 100%;
+    padding-left: 0;
+    margin-left: 0;
+    text-align: center;
+    list-style: none;
+    top: 106%;
+}
+.world_main {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.project-background{
+    position: relative;
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.project-background img {
+    width: 100%;
+}
+.project-background h1 {
+    color: #fff;
+    text-transform: uppercase;
+    position: absolute;
+    transform: translate(-50% , -50%);
+    top: 50%;
+    left: 50%;
+    font-size: 35px;
+    font-weight: 100;
+}
+.ongoing_project {
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.delivery_project {
+    width: 100%;
+    background-color: #9fa7db69;
+    padding-top: 20px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.project-ongoing-slider {
+    width: 1180px;
+    max-width: 98%;
+    margin: 0 auto;
+}
+.project-ongoing {
+    width: 33.33%;
+    float: left;
+    
+}
+.projectongoingimg img {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #0000005e;
+}
+.projectongoingimg{
+    padding: 0px 10px 0px 10px;
+}
+.ongoingproject-txt p {
+    text-align: center;
+    text-transform: capitalize;
+}
+.ongoingproject-txt h3 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.ongoingproject-txt button.btn_more{
+    border: 1px solid #6f93b0;
+}
+.testimonial_main {
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.testimonial-slider img{
+    width: 100%;
+}
+.testimonial-slider {
+    width: 33.33%;
+    float: left;
+    padding: 0px 10px 10px 10px;
+}
+.testimonial_main h5 {
+    text-align: center;
+}
+.btn_more {
+    transition: letter-spacing .5s ease;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    color: #2A5781;
+    box-shadow: none;
+    outline: none;
+    /* margin: 10px; */
+    font-weight: 600;
+    width: 100%;
+}
+img.arrow_button {
+    width: 5.5%;
+    padding: 0;
+    margin-top: .4rem;
+    margin-left: .5rem;
+    float: left;
+    transform-origin: left;
+    transition: transform .5s ease;
+    vertical-align: middle;
+    display: inline-block;
+}
+.btn-width{
+    width: 15% !important;
+    margin: 0 auto;
+}
+.btn_more p{
+    color: #2e5689;
+    float: left;
+    font-size: 14px;
+    font-weight: 600;
+}
+.btn_more:hover{
+    letter-spacing: .2rem;
+}
+.btn-proj{
+    width: 35%;
+    margin: 0 auto;
+}
+img.button-project{
+    width: 18%;
+    padding: 0;
+    margin-top: .4rem;
+    margin-left: .5rem;
+    float : left;
+    transform-origin: left;
+    transition: transform .5s ease;
+    vertical-align: middle;
+    display: inline-block;
+}
+.clearfix{
+    clear:both;
+}
+.liveHead2 {
+    width: 100%;
+}
+
+.liveHead2.aos-init.aos-animate p {
+    text-align: center;
+    margin: 10px auto;
+    width: 80%;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.abovefooter_main {
+    width: 100%;
+    background-color: #00000014;
+    margin-top: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+/* ----------------------
+media query
+------------------------- */
+@media only screen and (max-width:768px) {
+    h1 {
+        text-align: center;
+        font-size: 21px;
+    }
+    .container_aks {
+        width: 98%;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+    .liveHead2.aos-init.aos-animate p {
+        text-align: justify;
+        margin: 1% auto;
+        width: 93%;
+    }
+    .divide-img {
+        width: 100%;
+        float: none;
+    }
+    .divide-text {
+        width: 100%;
+        float: none;
+        background-color: #0000001a;
+        padding: 5px 0px;
+    }
+    .project-background h1 {
+        top: 25%;
+        font-size: 20px;
+    }
+    .testimonial_main h5 {
+        text-align: center;
+    }
+    .btn-width {
+        width: 50% !important;
+        margin: 0 auto;
+    }
+    .center_para {
+        text-align: center !important;
+    }
+}
+
