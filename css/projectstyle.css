@@ -57,32 +57,26 @@ h1 {
 }
 .world_main {
     width: 100%;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 50px 0;
 }
-.project-background{
-    position: relative;
+.project-background {
     width: 100%;
-    margin-top: 60px;
-    margin-bottom: 60px;
-}
-.project-background img {
-    width: 100%;
+    margin: 60px 0;
+    background: url(/images/Projects-BG.jpg);
+    padding: 40px 0;
+    background-size: 100% 100%;
+    background-position: center;
 }
 .project-background h1 {
     color: #fff;
     text-transform: uppercase;
-    position: absolute;
-    transform: translate(-50% , -50%);
-    top: 50%;
-    left: 50%;
     font-size: 35px;
+    text-align: center;
     font-weight: 100;
 }
 .ongoing_project {
     width: 100%;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin: 60px 0px;
 }
 .delivery_project {
     width: 100%;
@@ -118,9 +112,6 @@ h1 {
     text-align: center;
     text-transform: capitalize;
     font-size: 20px;
-}
-.ongoingproject-txt button.btn_more{
-    border: 1px solid #6f93b0;
 }
 .testimonial_main {
     width: 100%;
@@ -195,13 +186,10 @@ img.button-project{
 .liveHead2 {
     width: 100%;
 }
-
 .liveHead2.aos-init.aos-animate p {
     text-align: center;
-    margin: 10px auto;
-    width: 80%;
-    margin-bottom: 40px;
-    margin-top: 40px;
+    width: 100%;
+    margin: 20px 0px;
 }
 .abovefooter_main {
     width: 100%;
@@ -210,7 +198,12 @@ img.button-project{
     padding-top: 60px;
     padding-bottom: 60px;
 }
-
+.d_hide{
+    display: none;
+}
+.m_hide{
+    display: block;
+}
 
 /* ----------------------
 media query
@@ -227,8 +220,8 @@ media query
     }
     .liveHead2.aos-init.aos-animate p {
         text-align: justify;
-        margin: 1% auto;
-        width: 93%;
+        width: 96%;
+        margin: 20px auto;
     }
     .divide-img {
         width: 100%;
@@ -242,10 +235,14 @@ media query
     }
     .project-background h1 {
         top: 25%;
-        font-size: 20px;
+        font-size: 30px;
     }
     .testimonial_main h5 {
         text-align: center;
+    }
+    .testimonial_main {
+        width: 100%;
+        margin: 60px 0px;
     }
     .btn-width {
         width: 50% !important;
@@ -253,6 +250,23 @@ media query
     }
     .center_para {
         text-align: center !important;
+    }
+    .lable_line {
+        text-align: center;
+        width: 22%;
+        margin: 0 auto;
+    }
+    .delivery_project {
+        width: 100%;
+        background-color: #9fa7db69;
+        padding-top: 20px;
+        margin: 60px 0px;
+    }
+    .abovefooter_main {
+        width: 100%;
+        background-color: #00000014;
+        margin: 0px 0px;
+        padding: 20px 0px;
     }
 }
 

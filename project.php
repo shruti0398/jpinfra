@@ -53,7 +53,7 @@
   font-size: 1.5em;
   background-image: url("images/arrow_1.png");
   right: -35px;
-  width: 27px;
+  width: 28px;
   height: 18px;
   border: none;
   background-color: transparent;
@@ -185,7 +185,6 @@
 
 	<!-- Project bg start-->
 	<div class="project-background">
-		<img src="images/Projects-BG.jpg">
 		<h1>Projects</h1>
 	</div>
 	<!-- Project bg end -->

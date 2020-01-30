@@ -101,7 +101,15 @@ p{
 /* .row img { width: 100% !important; display: block !important; height:auto !important;} */
 
 
+.desktop{
 
+    display: block;
+}
+.mobile{
+
+    display: none;
+
+}
 
 /*--------------------------------------------------------------
 Header
@@ -483,6 +491,8 @@ Projects Delivered
 
 .lable_line {
     text-align: center;
+    width: 8%;
+    margin: 0 auto;
 }
 
 
@@ -1150,6 +1160,15 @@ Responsive
     }
     h2 {
         font-size: 21px;
+    }
+    .desktop{
+
+        display: none;
+    }
+    .mobile{
+
+        display: block;
+
     }
 
 }
